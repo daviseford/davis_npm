@@ -1,0 +1,18 @@
+{
+  "name": "davis_npm",
+  "version": "1.0.0",
+  "description": "A trial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "Davis Ford",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
