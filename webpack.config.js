@@ -15,9 +15,9 @@ module.exports = {
     ],
     module: {
         loaders: [
-            {test: /\.js$/, exclude: /node_modules/, loader: 'babel_loader'}
+            {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'}
         ]
-    }
+    },
     output: {
         filename: 'index_bundle.js',
         path: __dirname + '/app/out'
