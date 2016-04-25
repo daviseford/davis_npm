@@ -2,7 +2,6 @@
  * Created by loaner on 4/23/16.
  */
 var React = require('react');
-var transparentBg = require('../styles').transparentBg;
 var Prompt = require('../components/Prompt');
 
 var PromptContainer = React.createClass({
